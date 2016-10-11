@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Rnd og Point:&#xD;&#xA;2 klasser der bruges af mange, &#xD;&#xA;Rnd er en statisk klasse der generere et random tal, den skulle efter signe være mere random end når den bliver oprettet og erklæret mange gange i mange metoder.&#xD;&#xA;Point er oprettet for at få et point (int x/int y)&#xD;&#xA;istedet for at benytte Point referencen fra WindowsBase der opretter et point (double x/double y)&#xD;&#xA;gør det nemmere når der arbejdes i et array i modsætning til en grafisk grænseflade.">
+    <Position X="7.604" Y="3.26" Height="2.25" Width="3.012" />
+  </Comment>
+  <Class Name="SavannaGame_v10.Animal" Collapsed="true">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACBACAAACARIAAAAAAAAAUQAABBAAAAEAAACAAQAA=</HashCode>
+      <FileName>Animal.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SavannaGame_v10.Board" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAEAAEaAIhQIAAAAAAAAAAABAAAAAAAAAIAIEAEA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Controller" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SavannaGame_v10.Controller" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAwAAAAAAAAAAAAAAAAAAAABAAAAAAAAABAAEAAA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Program" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SavannaGame_v10.Grass" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Grass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavannaGame_v10.Ground" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAACAAAAAAAAAAAAAAAAAAAEQAABBAAAAEAAACAAQAA=</HashCode>
+      <FileName>Ground.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Board" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SavannaGame_v10.Lion" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAACAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Lion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavannaGame_v10.Point" Collapsed="true">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavannaGame_v10.Program" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavannaGame_v10.Rabbit" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAABACAAACABIAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rabbit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavannaGame_v10.Rnd" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Rnd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SavannaGame_v10.Sand" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
